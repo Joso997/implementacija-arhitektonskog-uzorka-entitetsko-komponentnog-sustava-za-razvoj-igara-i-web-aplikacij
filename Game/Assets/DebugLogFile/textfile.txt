@@ -1,0 +1,138 @@
+Time: 25,06 | System Condition | Dialogue | ...Učitavam sustav...
+Time: 47,24 | Player Action | Computer | MiddleButton | None | True
+Time: 47,26 | System Condition | Dialogue | Dobrodošli.
+Time: 48,12 | Player Action | Computer | MiddleButton | None | True
+Time: 48,14 | System Condition | Dialogue | Lokacija: Cyber Raketa Oznaka: 2021A
+Time: 49,36 | Player Action | Computer | MiddleButton | None | True
+Time: 49,38 | System Condition | Dialogue | ...Učitavanje tehničkih podataka...
+Time: 50,56 | Player Action | Computer | MiddleButton | None | True
+Time: 50,58 | System Condition | Dialogue | Cyber raketa oznake 2021A se sastoji od 3 razine. 
+Time: 51,96 | Player Action | Computer | MiddleButton | None | True
+Time: 51,98 | System Condition | Dialogue | Prva razina.
+
+Time: 53,16 | Player Action | Computer | MiddleButton | None | True
+Time: 53,18 | System Condition | Dialogue | Sadrži od lijeva na desno: "alat za popravak reaktora", "tri interaktivne konzole (lijeva, srednja i desna)" i glavni ekran (na kojem čitate ove upute).
+Time: 54,06 | Player Action | Computer | LeftButton | None | True
+Time: 58,28 | Player Action | Computer | MiddleButton | None | True
+Time: 61,24 | Player Action | Computer | MiddleButton | None | True
+Time: 61,26 | System Condition | Dialogue | Ove konzole koristite pri obavljanju manerva raketom ili pri hakir ..ahm.. pristupanju vanjskim sučenjima.
+Time: 62,58 | Player Action | Computer | LeftButton | None | True
+Time: 66,48 | Player Action | Computer | MiddleButton | None | True
+Time: 67,86 | System Condition | Dialogue | Srednju konzolu koristite kao potvrdu na odgovor, a lijevu i desnu konzolu za odabir odgovora.
+Time: 71,92 | Player Action | Computer | MiddleButton | None | True
+Time: 71,93999 | System Condition | Dialogue | Druga razina.
+Time: 73,38 | Player Action | Computer | MiddleButton | None | True
+Time: 73,4 | System Condition | Dialogue | Sadrži komore za stazu, ekran i konzolu za izbacivanje komore.
+Time: 77,2 | Player Action | Computer | MiddleButton | None | True
+Time: 77,22 | System Condition | Dialogue | Za više informacija o pojedinoj komori molim posjetite željenu komoru.
+Time: 80,72 | Player Action | Computer | MiddleButton | None | True
+Time: 80,74 | System Condition | Dialogue | Za izbacivanje komore molim prvo aktivirajte sustav za izbacivanje interakcijom nad konzolom.
+Time: 81,68 | Player Action | Computer | LeftButton | None | True
+Time: 84,78 | Player Action | Computer | MiddleButton | None | True
+Time: 86,18 | System Condition | Dialogue | Treća razina.
+Time: 88 | Player Action | Computer | MiddleButton | None | True
+Time: 88,02 | System Condition | Dialogue | Sadrži komoru sa gorivom za izvođenje manerva i reaktor koji napaja raketu.
+Time: 91,68 | Player Action | Computer | MiddleButton | None | True
+Time: 91,7 | System Condition | Dialogue | Reaktorom možete upravljati lijevom i desnom konzolom. 
+Time: 95,57999 | Player Action | Computer | MiddleButton | None | True
+Time: 95,6 | System Condition | Dialogue | Koristite lijevu konzolu za podizanje pritiska pri čemu će se povečati proizvodnja energije.
+Time: 99,43999 | Player Action | Computer | MiddleButton | None | True
+Time: 99,46 | System Condition | Dialogue | Koristite desnu konzolu za smanjenje pritiska čime će se smanjiti proizvodnja energije.
+Time: 103,2 | Player Action | Computer | MiddleButton | None | True
+Time: 103,22 | System Condition | Dialogue | Na reaktoru su prikazani 3 indikatora. Indikator strukture reaktora (boja), indikator za pritisak (crvena kazaljka) i indikator koji pokazuje proizvodnju energije (siva kazaljka)
+Time: 104,26 | Player Action | Computer | LeftButton | None | True
+Time: 107,14 | Player Action | Computer | MiddleButton | None | True
+Time: 112,42 | Player Action | Computer | MiddleButton | None | True
+Time: 112,44 | System Condition | Dialogue | Ako je struktura reaktora u savršenom stanju, pri generiranju energije kazaljke će biti jedna iznad druge.
+Time: 113,52 | Player Action | Computer | LeftButton | None | True
+Time: 116,36 | Player Action | Computer | MiddleButton | None | True
+Time: 117,76 | System Condition | Dialogue | Reaktor proizvodi 100 jedinica energije pri 100 jedinica pritiska ako je struktura reaktora u savršenom stanju. 
+Time: 121,8 | Player Action | Computer | MiddleButton | None | True
+Time: 121,82 | System Condition | Dialogue | Svaka od komora zahtjeva 5 jedinica energije. Ako je proizvodnja energije manja od zahtjevanog, komore će se oštećivati kroz vrijeme. Ako je proizvodnja energije veća od zahtjenog, komore će se oporavljati.
+Time: 126,14 | Player Action | Computer | MiddleButton | None | True
+Time: 130,32 | Player Action | Computer | MiddleButton | None | True
+Time: 130,34 | System Condition | Dialogue | Dodatno komora sa gorivom za manevriranje će nadodati pritisku reaktora.
+Time: 134,2 | Player Action | Computer | MiddleButton | None | True
+Time: 134,22 | System Condition | Dialogue | Kraj tehničkih podataka.
+Time: 136,2 | Player Action | Computer | MiddleButton | None | True
+Time: 137,68 | Player Action | Computer | MiddleButton | None | True
+Time: 139,26 | Player Action | Computer | MiddleButton | None | True
+Time: 140,38 | Player Action | Stasis | MiddleButton | None | True
+Time: 153,36 | Player Action | Stasis | DummyParentObject | Choose | True
+Time: 157,14 | Player Action | Computer | MiddleButton | None | True
+Time: 166,86 | Player Action | Computer | RightButton | None | True
+Time: 170,74 | Player Action | Computer | MiddleButton | None | True
+Time: 171,66 | System Consequence | InsideRocket | Reactor | ReactorSystems | Unavoidable | 
+Time: 173,42 | Player Action | Charger | ParentObject | Charge | True
+Time: 175,32 | Player Action | Reactor | ParentObject | Repair | True
+Time: 193,96 | Player Action | Reactor | LeftButton | Maintain | True
+Time: 195,16 | Player Action | Reactor | LeftButton | Maintain | True
+Time: 229,18 | Player Action | Computer | RightButton | None | True
+Time: 246,72 | Player Action | Computer | LeftButton | None | True
+Time: 249,16 | Player Action | Computer | LeftButton | None | True
+Time: 249,74 | Player Action | Computer | MiddleButton | None | True
+Time: 252,14 | Player Action | Computer | MiddleButton | None | True
+Time: 252,9 | Player Action | Computer | MiddleButton | None | True
+Time: 253,62 | Player Action | Computer | MiddleButton | None | True
+Time: 254,6 | Player Action | Computer | MiddleButton | None | True
+Time: 255,92 | Player Action | Computer | MiddleButton | None | True
+Time: 256,9 | Player Action | Computer | MiddleButton | None | True
+Time: 258,04 | Player Action | Computer | MiddleButton | None | True
+Time: 258,94 | Player Action | Computer | MiddleButton | None | True
+Time: 259,82 | Player Action | Computer | MiddleButton | None | True
+Time: 260,76 | Player Action | Computer | MiddleButton | None | True
+Time: 272,4 | Player Action | Computer | LeftButton | None | True
+Time: 276,02 | Player Action | Computer | RightButton | None | True
+Time: 279,06 | Player Action | Computer | RightButton | None | True
+Time: 282,04 | Player Action | Computer | RightButton | None | True
+Time: 283,98 | Player Action | Computer | RightButton | None | True
+Time: 285,18 | Player Action | Computer | LeftButton | None | True
+Time: 288,06 | Player Action | Computer | LeftButton | None | True
+Time: 288,66 | Player Action | Computer | MiddleButton | None | True
+Time: 291,22 | Player Action | Computer | LeftButton | None | True
+Time: 293,24 | Player Action | Computer | LeftButton | None | True
+Time: 294,28 | Player Action | Computer | RightButton | None | True
+Time: 297,02 | Player Action | Computer | RightButton | None | True
+Time: 297,54 | Player Action | Computer | RightButton | None | True
+Time: 298,22 | Player Action | Computer | MiddleButton | None | True
+Time: 300,62 | Player Action | Computer | MiddleButton | None | True
+Time: 301,72 | Player Action | Computer | MiddleButton | None | True
+Time: 302,44 | Player Action | Computer | MiddleButton | None | True
+Time: 314,94 | Player Action | Computer | RightButton | None | True
+Time: 316,76 | Player Action | Computer | MiddleButton | None | True
+Time: 319,64 | Player Action | Computer | MiddleButton | None | True
+Time: 320,74 | Player Action | Computer | MiddleButton | None | True
+Time: 321,72 | Player Action | Computer | MiddleButton | None | True
+Time: 322,86 | Player Action | Computer | MiddleButton | None | True
+Time: 325,1 | Player Action | Computer | MiddleButton | None | True
+Time: 325,12 | System Consequence | InsideRocket | Reactor | ReactorSystems | Even | 
+Time: 337,44 | Player Action | Computer | MiddleButton | None | True
+Time: 337,46 | System Consequence | InsideRocket | Reactor | ReactorSystems | Even | 
+Time: 348,4 | Player Action | Computer | LeftButton | None | True
+Time: 349,96 | Player Action | Computer | LeftButton | None | True
+Time: 350,56 | Player Action | Computer | MiddleButton | None | True
+Time: 351,96 | System Consequence | InsideRocket | Reactor | Physical | Even | 
+Time: 363,98 | Player Action | Computer | LeftButton | None | True
+Time: 365,9 | Player Action | Computer | RightButton | None | True
+Time: 368,3 | Player Action | Computer | MiddleButton | None | True
+Time: 369,56 | System Consequence | InsideRocket | Reactor | Physical | Even | 
+Time: 382,5 | Player Action | Computer | LeftButton | None | True
+Time: 384,34 | Player Action | Computer | MiddleButton | None | True
+Time: 385,72 | System Consequence | InsideRocket | Reactor | ReactorSystems | Even | 
+Time: 397,04 | Player Action | Computer | LeftButton | None | True
+Time: 399,02 | Player Action | Computer | LeftButton | None | True
+Time: 399,64 | Player Action | Computer | MiddleButton | None | True
+Time: 401,02 | System Consequence | InsideRocket | Reactor | ReactorSystems | Even | 
+Time: 403,4 | Player Action | Charger | ParentObject | Charge | True
+Time: 405,68 | Player Action | Reactor | ParentObject | Repair | True
+Time: 425,12 | Player Action | Computer | MiddleButton | None | True
+Time: 441,38 | Player Action | Computer | MiddleButton | None | True
+Time: 442,22 | Player Action | Computer | MiddleButton | None | True
+Time: 442,9 | Player Action | Computer | MiddleButton | None | True
+Time: 442,92 | System Consequence | InsideRocket | Reactor | ReactorSystems | Unavoidable | 
+Time: 443,56 | Player Action | Computer | MiddleButton | None | True
+Time: 444,1 | Player Action | Computer | MiddleButton | None | True
+Time: 444,76 | Player Action | Charger | ParentObject | Charge | True
+Time: 447,32 | Player Action | Reactor | ParentObject | Repair | True
+Time: 468,24 | Player Action | Charger | ParentObject | Charge | True
+Time: 486,2 | Player Action | Reactor | ParentObject | Repair | True

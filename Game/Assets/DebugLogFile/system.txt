@@ -1,0 +1,11 @@
+Time: 21,64 | System Consequence | InsideRocket | Reactor | Physical | Unavoidable | 
+Time: 21,64 | System Condition | Dialogue | Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Time: 43,36 | Player Action | Computer | MiddleButton | None | True
+Time: 43,8 | Player Action | Computer | MiddleButton | None | True
+Time: 44,24 | Player Action | Computer | MiddleButton | None | True
+Time: 44,26 | System Condition | Repair | test
+Time: 44,26 | System Consequence | InsideRocket | Reactor | Physical | Unavoidable | 
+Time: 44,26 | System Condition | Course | No Dialogue
+Time: 50,76 | Player Action | Computer | LeftButton | None | True
+Time: 52,12 | Player Action | Computer | LeftButton | None | True
+Time: 52,6 | Player Action | Computer | MiddleButton | None | True

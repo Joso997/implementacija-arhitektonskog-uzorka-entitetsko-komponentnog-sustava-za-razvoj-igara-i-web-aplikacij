@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Workshop/GameScene.unity
+    guid: b747424b4d54b98428f69a7ca3be8ee2
+  - enabled: 1
+    path: Assets/Scenes/Workshop/MainMenu - Copy.unity
+    guid: ae7aef346d4ad63409a7fc5fda9e3c84
+  - enabled: 1
+    path: Assets/Scenes/Workshop/Rocket (Outside) Workshop.unity
+    guid: 8bd31dacbf01b364aad3afffb963f558
+  - enabled: 1
+    path: Assets/Scenes/Workshop/Rocket (Inside) Workshop.unity
+    guid: e4438df28712d204fbc8b6b42e34ca6b
+  m_configObjects: {}
